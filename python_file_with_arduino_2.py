@@ -8,13 +8,13 @@ import serial
 # ==============================
 # 🔌 SERIAL SETUP
 # ==============================
-arduino = serial.Serial('COM3', 9600)   # 👉 CHANGE COM PORT
+arduino = serial.Serial('COM23', 9600)   # 👉 CHANGE COM PORT
 time.sleep(2)
 
 # ==============================
 # 🎧 LOAD AUDIO
 # ==============================
-FILE = "character_dheela.mp3"
+FILE = "horn_below.mpeg"
 y, sr = librosa.load(FILE, sr=None)
 
 # ==============================
